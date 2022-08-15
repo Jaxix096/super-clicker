@@ -1,0 +1,18 @@
+resource-button::before {
+    content: attr(value);
+    background: hwb(190 80% 65%);
+    width: 225px;
+}
+
+resource-button.hover::before {
+    content: attr(value);
+    background: hwb(190 80% 65%);
+    width: 225px;
+}
+
+resource-button.hover:hover::before {
+    content: attr(value);
+    background: hwb(370 50% 15%);
+    width: 225px;
+    cursor: pointer;
+}

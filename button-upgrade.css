@@ -1,0 +1,17 @@
+button.upgrade {
+    font-family: Unifont, monospace;
+    font-size: 30px;
+    background-color: #808080;
+}
+
+button.upgrade-locked {
+    background-color: #ffa9a9;
+    font-family: Unifont, monospace;
+    font-size: 30px;
+}
+
+button.upgrade-unlocked {
+    background-color: #17c434;
+    font-family: Unifont, monospace;
+    font-size: 30px;
+}
